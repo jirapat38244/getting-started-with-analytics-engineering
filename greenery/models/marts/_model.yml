@@ -1,0 +1,6 @@
+version: 2
+
+models:
+  - name: number_of_users
+    description: Greenery users
+

@@ -6,8 +6,8 @@ greenery:
       host: localhost
       port: 5432
       user: postgres
-      pass: postgres
-      # pass: "{{ env_var('DBT_ENV_SECRET_PG_PASSWORD') }}"
+      #pass: postgres
+      pass: "{{ env_var('DBT_ENV_SECRET_PG_PASSWORD') }}"
       dbname: greenery
       schema: dbt_boom
 
